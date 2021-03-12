@@ -1,4 +1,7 @@
-import {animate, animateChild, group, query, style, transition, trigger} from '@angular/animations';
+import {
+  trigger, animateChild, group,
+  transition, animate, style, query
+} from '@angular/animations';
 
 
 // Routable animations
@@ -29,3 +32,10 @@ export const slideInAnimation =
       query(':enter', animateChild()),
     ])
   ]);
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

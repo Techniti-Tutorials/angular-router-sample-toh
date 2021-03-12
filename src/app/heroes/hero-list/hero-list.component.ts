@@ -1,13 +1,11 @@
-import {Component, OnInit} from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-
+// TODO: Feature Componetized like CrisisCenter
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
-import {Hero} from '../hero';
-import {HeroService} from '../hero.service';
-import {MessageService} from '../../message.service';
-
+import { HeroService } from '../hero.service';
+import { Hero } from '../hero';
 
 @Component({
   selector: 'app-hero-list',
@@ -33,6 +31,7 @@ export class HeroListComponent implements OnInit {
     );
   }
 }
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
